@@ -1,0 +1,2 @@
+# Bearer token for /api/*. Use 32+ random characters.
+ADMIN_TOKEN=change-me-to-a-long-random-string-0123456789

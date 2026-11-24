@@ -1,0 +1,173 @@
+{
+ "note": "d1QueriesAdaptiveGroups for one hour, 2026-11-19 11:00-12:00 UTC, one row per distinct SQL statement (query text replaced by its kind). Counts and sums are Cloudflare estimates: each sampled execution is multiplied by its sample interval.",
+ "rows": [
+  {
+   "kind": "report query",
+   "executions_estimated": 92,
+   "rows_read_estimated": 1854628,
+   "avg_rows_read_per_execution": 20159,
+   "avg_sample_interval": 92
+  },
+  {
+   "kind": "report query",
+   "executions_estimated": 115,
+   "rows_read_estimated": 1530075,
+   "avg_rows_read_per_execution": 13305,
+   "avg_sample_interval": 115
+  },
+  {
+   "kind": "report query",
+   "executions_estimated": 92,
+   "rows_read_estimated": 909604,
+   "avg_rows_read_per_execution": 9887,
+   "avg_sample_interval": 92
+  },
+  {
+   "kind": "report query",
+   "executions_estimated": 92,
+   "rows_read_estimated": 66056,
+   "avg_rows_read_per_execution": 718,
+   "avg_sample_interval": 92
+  },
+  {
+   "kind": "beacon cache load: other lists",
+   "executions_estimated": 42,
+   "rows_read_estimated": 2730,
+   "avg_rows_read_per_execution": 65,
+   "avg_sample_interval": 1.24
+  },
+  {
+   "kind": "report query",
+   "executions_estimated": 230,
+   "rows_read_estimated": 1840,
+   "avg_rows_read_per_execution": 8,
+   "avg_sample_interval": 115
+  },
+  {
+   "kind": "report query",
+   "executions_estimated": 8,
+   "rows_read_estimated": 1720,
+   "avg_rows_read_per_execution": 215,
+   "avg_sample_interval": 8
+  },
+  {
+   "kind": "report query",
+   "executions_estimated": 8,
+   "rows_read_estimated": 1664,
+   "avg_rows_read_per_execution": 208,
+   "avg_sample_interval": 8
+  },
+  {
+   "kind": "other",
+   "executions_estimated": 92,
+   "rows_read_estimated": 1012,
+   "avg_rows_read_per_execution": 11,
+   "avg_sample_interval": 92
+  },
+  {
+   "kind": "beacon cache load: active links",
+   "executions_estimated": 49,
+   "rows_read_estimated": 686,
+   "avg_rows_read_per_execution": 14,
+   "avg_sample_interval": 1.36
+  },
+  {
+   "kind": "report query",
+   "executions_estimated": 92,
+   "rows_read_estimated": 460,
+   "avg_rows_read_per_execution": 5,
+   "avg_sample_interval": 92
+  },
+  {
+   "kind": "beacon cache load: other lists",
+   "executions_estimated": 57,
+   "rows_read_estimated": 228,
+   "avg_rows_read_per_execution": 4,
+   "avg_sample_interval": 1.5
+  },
+  {
+   "kind": "report query",
+   "executions_estimated": 8,
+   "rows_read_estimated": 48,
+   "avg_rows_read_per_execution": 6,
+   "avg_sample_interval": 8
+  },
+  {
+   "kind": "write or rollup",
+   "executions_estimated": 1,
+   "rows_read_estimated": 45,
+   "avg_rows_read_per_execution": 45,
+   "avg_sample_interval": 1
+  },
+  {
+   "kind": "other",
+   "executions_estimated": 20,
+   "rows_read_estimated": 20,
+   "avg_rows_read_per_execution": 1,
+   "avg_sample_interval": 20
+  },
+  {
+   "kind": "other",
+   "executions_estimated": 7,
+   "rows_read_estimated": 7,
+   "avg_rows_read_per_execution": 1,
+   "avg_sample_interval": 3.5
+  },
+  {
+   "kind": "write or rollup",
+   "executions_estimated": 3,
+   "rows_read_estimated": 6,
+   "avg_rows_read_per_execution": 2,
+   "avg_sample_interval": 3
+  },
+  {
+   "kind": "redirect lookup",
+   "executions_estimated": 6,
+   "rows_read_estimated": 6,
+   "avg_rows_read_per_execution": 1,
+   "avg_sample_interval": 1.5
+  },
+  {
+   "kind": "write or rollup",
+   "executions_estimated": 6,
+   "rows_read_estimated": 6,
+   "avg_rows_read_per_execution": 1,
+   "avg_sample_interval": 3
+  },
+  {
+   "kind": "write or rollup",
+   "executions_estimated": 1,
+   "rows_read_estimated": 1,
+   "avg_rows_read_per_execution": 1,
+   "avg_sample_interval": 1
+  },
+  {
+   "kind": "write or rollup",
+   "executions_estimated": 66,
+   "rows_read_estimated": 0,
+   "avg_rows_read_per_execution": 0,
+   "avg_sample_interval": 1.4
+  },
+  {
+   "kind": "write or rollup",
+   "executions_estimated": 115,
+   "rows_read_estimated": 0,
+   "avg_rows_read_per_execution": 0,
+   "avg_sample_interval": 115
+  },
+  {
+   "kind": "write or rollup",
+   "executions_estimated": 4,
+   "rows_read_estimated": 0,
+   "avg_rows_read_per_execution": 0,
+   "avg_sample_interval": 1.33
+  },
+  {
+   "kind": "report query",
+   "executions_estimated": 400,
+   "rows_read_estimated": 0,
+   "avg_rows_read_per_execution": 0,
+   "avg_sample_interval": 57.14
+  }
+ ]
+}

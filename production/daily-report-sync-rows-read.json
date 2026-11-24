@@ -1,0 +1,130 @@
+{
+ "note": "D1 rows read in the 04:00-05:00 UTC hour each day, from d1AnalyticsAdaptiveGroups (sampled). A daily job pulls every report into an internal dashboard in that hour; little else runs then (the median hour of the week reads about 3,000 rows).",
+ "days": [
+  {
+   "date": "2026-10-25",
+   "rows_read_04_utc_hour": 249949
+  },
+  {
+   "date": "2026-10-26",
+   "rows_read_04_utc_hour": 258450
+  },
+  {
+   "date": "2026-10-27",
+   "rows_read_04_utc_hour": 274069
+  },
+  {
+   "date": "2026-10-28",
+   "rows_read_04_utc_hour": 290479
+  },
+  {
+   "date": "2026-10-29",
+   "rows_read_04_utc_hour": 306120
+  },
+  {
+   "date": "2026-10-30",
+   "rows_read_04_utc_hour": 317966
+  },
+  {
+   "date": "2026-10-31",
+   "rows_read_04_utc_hour": 330502
+  },
+  {
+   "date": "2026-11-01",
+   "rows_read_04_utc_hour": 337268
+  },
+  {
+   "date": "2026-11-02",
+   "rows_read_04_utc_hour": 348524
+  },
+  {
+   "date": "2026-11-03",
+   "rows_read_04_utc_hour": 364504
+  },
+  {
+   "date": "2026-11-04",
+   "rows_read_04_utc_hour": 384918
+  },
+  {
+   "date": "2026-11-05",
+   "rows_read_04_utc_hour": 407255
+  },
+  {
+   "date": "2026-11-06",
+   "rows_read_04_utc_hour": 425741
+  },
+  {
+   "date": "2026-11-07",
+   "rows_read_04_utc_hour": 503815
+  },
+  {
+   "date": "2026-11-08",
+   "rows_read_04_utc_hour": 521781
+  },
+  {
+   "date": "2026-11-09",
+   "rows_read_04_utc_hour": 537819
+  },
+  {
+   "date": "2026-11-10",
+   "rows_read_04_utc_hour": 567379
+  },
+  {
+   "date": "2026-11-11",
+   "rows_read_04_utc_hour": 592799
+  },
+  {
+   "date": "2026-11-12",
+   "rows_read_04_utc_hour": 611523
+  },
+  {
+   "date": "2026-11-13",
+   "rows_read_04_utc_hour": 629805
+  },
+  {
+   "date": "2026-11-14",
+   "rows_read_04_utc_hour": 649454
+  },
+  {
+   "date": "2026-11-15",
+   "rows_read_04_utc_hour": 661206
+  },
+  {
+   "date": "2026-11-16",
+   "rows_read_04_utc_hour": 675505
+  },
+  {
+   "date": "2026-11-17",
+   "rows_read_04_utc_hour": 690900
+  },
+  {
+   "date": "2026-11-18",
+   "rows_read_04_utc_hour": 711692
+  },
+  {
+   "date": "2026-11-19",
+   "rows_read_04_utc_hour": 738020
+  },
+  {
+   "date": "2026-11-20",
+   "rows_read_04_utc_hour": 760000
+  },
+  {
+   "date": "2026-11-21",
+   "rows_read_04_utc_hour": 781475
+  },
+  {
+   "date": "2026-11-22",
+   "rows_read_04_utc_hour": 793414
+  },
+  {
+   "date": "2026-11-23",
+   "rows_read_04_utc_hour": 817374
+  },
+  {
+   "date": "2026-11-24",
+   "rows_read_04_utc_hour": 847289
+  }
+ ],
+ "growth_per_day_straight_line": 19911
+}

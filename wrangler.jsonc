@@ -1,0 +1,31 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "free-plan-link-tracker",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-11-01",
+  "observability": { "enabled": true },
+  // One cron trigger (the free plan allows 5 per account). At :05 every hour
+  // it rolls closed days of raw impressions into per-link totals.
+  "triggers": { "crons": ["5 * * * *"] },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "free-plan-link-tracker",
+      // Replace with the id `wrangler d1 create` prints before deploying.
+      "database_id": "00000000-0000-0000-0000-000000000000",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "vars": {
+    "FALLBACK_URL": "https://example.com/",
+    // Pages allowed to send impression beacons, comma separated.
+    "SITE_ORIGINS": "https://example.com",
+    // "1" makes every response report the D1 rows it read and wrote, and
+    // waits for writes before answering so the numbers are complete. Off in
+    // production: the redirect should never wait for a write.
+    "METRICS": "0",
+    // "totals" reads the rolled-up tables. "naive" skips the rollup and
+    // scans the raw impression rows, to show what reads cost without it.
+    "STATS_MODE": "totals"
+  }
+}

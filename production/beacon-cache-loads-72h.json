@@ -1,0 +1,8 @@
+{
+ "note": "Same 72 h window as route_classes_72h in tracker-2026-10-25-to-11-24.json (2026-11-21 11:02 to 2026-11-24 11:02 UTC). Beacons from Workers Observability (unsampled); cache loads = executions of the query that loads the active-link list, from d1QueriesAdaptiveGroups (estimated).",
+ "beacons": 3614,
+ "active_link_cache_loads": 2683,
+ "avg_sample_interval": [
+  1.5235661555934128
+ ]
+}

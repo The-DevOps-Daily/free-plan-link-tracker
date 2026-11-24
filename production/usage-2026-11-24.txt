@@ -1,0 +1,7 @@
+2026-11-24 UTC, 50% of the day gone
+Workers requests        [removed from this sample: it counts the whole account]
+D1 rows read          895,225 / 5,000,000  17.9% now, ~36% by midnight
+D1 rows written         4,111 / 100,000  4.1% now, ~8% by midnight
+Worker errors     0
+CPU p99 (worst Worker) 9.0 ms against the 10 ms free limit
+under 40%

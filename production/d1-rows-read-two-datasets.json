@@ -1,0 +1,58 @@
+{
+ "note": "D1 rows read per UTC day from two Cloudflare datasets for the same database. Both are sampled. Window 2026-11-17 11:00 to 2026-11-24 11:00 UTC, so the first and last days are partial in the query insights column.",
+ "per_day": [
+  {
+   "date": "2026-11-17",
+   "d1AnalyticsAdaptiveGroups": 772950,
+   "d1QueriesAdaptiveGroups": 39294
+  },
+  {
+   "date": "2026-11-18",
+   "d1AnalyticsAdaptiveGroups": 2261164,
+   "d1QueriesAdaptiveGroups": 4434202
+  },
+  {
+   "date": "2026-11-19",
+   "d1AnalyticsAdaptiveGroups": 1672901,
+   "d1QueriesAdaptiveGroups": 4553990
+  },
+  {
+   "date": "2026-11-20",
+   "d1AnalyticsAdaptiveGroups": 1705241,
+   "d1QueriesAdaptiveGroups": 4188793
+  },
+  {
+   "date": "2026-11-21",
+   "d1AnalyticsAdaptiveGroups": 1237686,
+   "d1QueriesAdaptiveGroups": 467858
+  },
+  {
+   "date": "2026-11-22",
+   "d1AnalyticsAdaptiveGroups": 847356,
+   "d1QueriesAdaptiveGroups": 320563
+  },
+  {
+   "date": "2026-11-23",
+   "d1AnalyticsAdaptiveGroups": 933141,
+   "d1QueriesAdaptiveGroups": 1349929
+  },
+  {
+   "date": "2026-11-24",
+   "d1AnalyticsAdaptiveGroups": 891902,
+   "d1QueriesAdaptiveGroups": 1737214
+  }
+ ],
+ "hourly_7d": {
+  "hours": 168,
+  "median_rows_read_per_hour": 2993.5,
+  "max_rows_read_in_one_hour": 1308251,
+  "hours_over_100k": 12,
+  "share_of_reads_in_hours_over_100k": 0.899,
+  "share_by_hour_utc_top": {
+   "04": 0.568,
+   "14": 0.138,
+   "10": 0.127,
+   "11": 0.09
+  }
+ }
+}
